@@ -1,3 +1,4 @@
+"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -34,6 +35,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+exports.__esModule = true;
+exports.ScreenStream = void 0;
 /**
  * @description ScreenStream类 获取并且处理客户端屏幕视频流，支持共享屏幕，共享应用窗口，共享标签页(chrome)
  */
@@ -146,3 +149,4 @@ var ScreenStream = /** @class */ (function () {
     };
     return ScreenStream;
 }());
+exports.ScreenStream = ScreenStream;

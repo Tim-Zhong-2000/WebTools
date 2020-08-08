@@ -1,6 +1,11 @@
 # ScreenStream 屏幕视频流
 ## usage
-1. startCapture
+1. 导入 import
+```
+import { ScreenStream } from "./ScreenStream"
+```
+
+2. 启动屏幕视频流 `startCapture`
 ``` 
 const screenStream = new ScreenStream();
 screenStream.startCapture().then( stream => {
@@ -12,7 +17,7 @@ screenStream.startCapture().then( stream => {
 获取成功返回视频与音频流
 获取失败返回null
 
-2. stopCapture
+3. 停止屏幕视频流 `stopCapture`
 ```
 screenStream.stopCapture()
 ```

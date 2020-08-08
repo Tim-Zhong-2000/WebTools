@@ -1,7 +1,7 @@
 /**
  * @description ScreenStream类 获取并且处理客户端屏幕视频流，支持共享屏幕，共享应用窗口，共享标签页(chrome)
  */
-class ScreenStream {
+export class ScreenStream {
   isCapturing = false;
   screenStream = null;
 
