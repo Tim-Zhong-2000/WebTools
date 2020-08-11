@@ -1,4 +1,4 @@
-# ScreenStream 屏幕视频流
+# CameraStream 屏幕视频流
 ## usage
 1. 导入 import
 ```
