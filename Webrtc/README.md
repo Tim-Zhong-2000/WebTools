@@ -1,4 +1,4 @@
-# Webrtc Webrtc 多媒体与文件传输
+# Webrtc 点到点实时多媒体与文件传输
 
 ## usage
 
