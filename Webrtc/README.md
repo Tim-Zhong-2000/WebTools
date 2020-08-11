@@ -44,7 +44,7 @@ peer.onSendSdp = (sdp)=>{
     peer.addRemoteSession(`接收到的sdp`)
 ```
 
-6.`initOffer` 将自己作为发起者，并且与对方建立连接
+6. `initOffer` 将自己作为发起者，并且与对方建立连接
 
 ```
 peer.initOffer()
